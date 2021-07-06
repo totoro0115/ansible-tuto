@@ -2,7 +2,7 @@
 - hosts: all
   become: true
   become_user: root
-  remote_user: vagrant
+  remote_user: vagrant 
   gather_facts: false
   tasks:
     # This should work too / #2372
